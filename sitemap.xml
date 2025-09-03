@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.zenwayfreight.com/ariticle/%E6%B5%8B%E8%AF%95post/</loc>
+    <loc>http://blog.zenwayfreight.com/ariticle/post/</loc>
     
-    <lastmod>2025-09-02</lastmod>
+    <lastmod>2025-09-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -73,28 +73,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://blog.zenwayfreight.com/ariticle/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E6%96%87%E7%AB%A0/</loc>
-    
-    <lastmod>2025-09-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.zenwayfreight.com/ariticle/hello-world/</loc>
-    
-    <lastmod>2025-09-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://blog.zenwayfreight.com/</loc>
-    <lastmod>2025-09-02</lastmod>
+    <lastmod>2025-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,14 +84,14 @@
   
   <url>
     <loc>http://blog.zenwayfreight.com/tags/FBA/</loc>
-    <lastmod>2025-09-02</lastmod>
+    <lastmod>2025-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.zenwayfreight.com/tags/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%B5%B7%E6%B4%BE/</loc>
-    <lastmod>2025-09-02</lastmod>
+    <lastmod>2025-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -118,7 +100,7 @@
   
   <url>
     <loc>http://blog.zenwayfreight.com/categories/%E5%8A%A0%E6%8B%BF%E5%A4%A7/</loc>
-    <lastmod>2025-09-02</lastmod>
+    <lastmod>2025-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
