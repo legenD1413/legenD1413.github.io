@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.zenwayfreight.com/ariticle/how-to-avoid-international-shipping-customs-clearance-issues/</loc>
+    
+    <lastmod>2025-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.zenwayfreight.com/ariticle/Canada-Commercial-Large-Shipment-Size-Limits/</loc>
     
     <lastmod>2025-09-05</lastmod>
@@ -358,6 +367,27 @@
   </url>
   
   <url>
+    <loc>http://blog.zenwayfreight.com/tags/%E5%9B%BD%E9%99%85%E5%BF%AB%E9%80%92%E6%B8%85%E5%85%B3/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.zenwayfreight.com/tags/%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86%E5%90%88%E8%A7%84/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.zenwayfreight.com/tags/%E6%B5%B7%E5%85%B3%E7%94%B3%E6%8A%A5/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.zenwayfreight.com/tags/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%B5%B7%E5%A4%96%E4%BB%93/</loc>
     <lastmod>2025-09-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -417,6 +447,13 @@
   
   <url>
     <loc>http://blog.zenwayfreight.com/categories/%E5%8A%A0%E6%8B%BF%E5%A4%A7/%E6%B5%B7%E5%A4%96%E4%BB%93/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.zenwayfreight.com/categories/%E5%9B%BD%E9%99%85%E5%BF%AB%E9%80%92/</loc>
     <lastmod>2025-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
