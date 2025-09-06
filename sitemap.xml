@@ -2,9 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.zenwayfreight.com/ariticle/post/</loc>
+    <loc>http://blog.zenwayfreight.com/ariticle/US-CBP-Inspection-Types-Strategies/</loc>
     
-    <lastmod>2025-09-03</lastmod>
+    <lastmod>2025-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.zenwayfreight.com/ariticle/US-Tariff-Rate-Query-Guide-China-Exports/</loc>
+    
+    <lastmod>2025-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.zenwayfreight.com/faq/index.html</loc>
+    
+    <lastmod>2025-09-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,22 +94,78 @@
 
   <url>
     <loc>http://blog.zenwayfreight.com/</loc>
-    <lastmod>2025-09-03</lastmod>
+    <lastmod>2025-09-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://blog.zenwayfreight.com/tags/FBA/</loc>
-    <lastmod>2025-09-03</lastmod>
+    <loc>http://blog.zenwayfreight.com/tags/%E7%BE%8E%E5%9B%BD%E6%B5%B7%E5%85%B3%E6%9F%A5%E9%AA%8C/</loc>
+    <lastmod>2025-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.zenwayfreight.com/tags/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%B5%B7%E6%B4%BE/</loc>
-    <lastmod>2025-09-03</lastmod>
+    <loc>http://blog.zenwayfreight.com/tags/CBP%E6%9F%A5%E9%AA%8C/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.zenwayfreight.com/tags/%E6%B8%85%E5%85%B3%E7%AD%96%E7%95%A5/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.zenwayfreight.com/tags/%E5%9B%BD%E9%99%85%E8%B4%B8%E6%98%93/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.zenwayfreight.com/tags/%E7%89%A9%E6%B5%81%E9%A3%8E%E9%99%A9/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.zenwayfreight.com/tags/%E7%BE%8E%E5%9B%BD%E5%85%B3%E7%A8%8E%E6%9F%A5%E8%AF%A2/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.zenwayfreight.com/tags/HTS%E7%BC%96%E7%A0%81/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.zenwayfreight.com/tags/%E5%87%BA%E5%8F%A3%E5%85%B3%E7%A8%8E/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.zenwayfreight.com/tags/301%E5%85%B3%E7%A8%8E/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.zenwayfreight.com/tags/%E8%B4%B8%E6%98%93%E6%94%BF%E7%AD%96/</loc>
+    <lastmod>2025-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -99,8 +173,8 @@
 
   
   <url>
-    <loc>http://blog.zenwayfreight.com/categories/%E5%8A%A0%E6%8B%BF%E5%A4%A7/</loc>
-    <lastmod>2025-09-03</lastmod>
+    <loc>http://blog.zenwayfreight.com/categories/%E8%A7%A3%E5%86%B3%E7%89%A9%E6%B5%81%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2025-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

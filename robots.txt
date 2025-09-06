@@ -1,0 +1,27 @@
+# robots.txt for 海哥国际物流博客
+# 允许AI搜索引擎访问
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# 通用搜索引擎设置
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# 站点地图
+Sitemap: http://blog.zenwayfreight.com/sitemap.xml

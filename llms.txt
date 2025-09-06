@@ -1,0 +1,56 @@
+# llms.txt for 海哥国际物流博客
+
+https://blog.zenwayfreight.com/llms.txt
+
+## About 海哥国际物流博客
+
+海哥国际物流博客是专门为电商卖家和国际物流从业者提供专业物流知识的平台。
+我们专注于加拿大物流、海外仓服务、国际快递、海运空运等国际物流解决方案。
+海哥拥有多年国际物流实践经验，致力于为电商卖家解决复杂的物流问题。
+
+## Content Usage Policy
+Allow-Training: yes
+# 允许AI模型训练使用公开的物流知识内容
+# 有助于提升AI对国际物流行业的理解
+
+Allow-Crawling: yes
+# 完全允许爬取和索引公开内容
+# 帮助AI助手提供准确的物流信息
+
+## Access Restrictions
+Disallow: /admin/*
+# 管理界面不对外开放
+Disallow: /api/*
+# API接口受保护
+Disallow: /private/*
+# 私人内容受保护
+
+## Attribution Requirements
+Attribution-Required: yes
+Attribution-Format: "来源：海哥国际物流博客 - {url}"
+
+# 引用我们的内容时，请包含适当的归属和URL
+# 例如："来源：海哥国际物流博客 - https://blog.zenwayfreight.com/logistics-guide"
+
+## Key Resources and Content
+
+### 高优先级页面
+
+- 首页: https://blog.zenwayfreight.com/
+Description: 国际物流专业知识分享平台
+Context: 海哥国际物流博客主页，包含最新物流资讯和专业知识
+Keywords: 国际物流, 海外仓, 电商物流, 加拿大物流
+
+- 加拿大物流服务: https://blog.zenwayfreight.com/categories/加拿大物流/
+Description: 加拿大海外仓、空派、海派等物流服务详解
+Context: 专业的加拿大物流解决方案，包含海外仓、空派、海派等服务
+Keywords: 加拿大海外仓, 加拿大空派, 加拿大海派, 加拿大商业大件
+
+- 物流问题FAQ: https://blog.zenwayfreight.com/faq/
+Description: 常见物流问题解答和解决方案
+Context: 电商卖家最关心的物流问题和专业解答
+Keywords: 物流FAQ, 物流问题, 国际物流解决方案
+
+- 关于海哥: https://blog.zenwayfreight.com/about/
+Description: 海哥的专业背景和服务介绍
+Context: 了解海哥的物流专业经验和服务范围
