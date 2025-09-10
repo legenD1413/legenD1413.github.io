@@ -9213,3 +9213,149 @@ body.okayNav-loaded {
     max-height: 200px;
   }
 }
+
+/**
+ * Apple Style Links - Minimalist design
+ * 字体和图标缩小30%，简约苹果风格
+ */
+
+/* 自定义栅格类 - 每行8个 */
+.col-md-1-5 {
+  width: 12.5%; /* 100% / 8 = 12.5% */
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (max-width: 991px) {
+  .col-md-1-5 {
+    width: 25%; /* 平板每行4个 */
+  }
+}
+
+@media (max-width: 767px) {
+  .col-md-1-5 {
+    width: 50%; /* 手机每行2个 */
+  }
+}
+
+.article-links .link-category {
+  margin-bottom: 40px !important;
+}
+
+.article-links .category-title {
+  font-size: 0.91em !important; /* 从0.7em扩大30% (0.7 × 1.3 = 0.91) */
+  font-weight: 600 !important;
+  color: #1d1d1f !important;
+  border: none !important;
+  border-bottom: 1px solid #d2d2d7 !important;
+  padding-bottom: 8px !important;
+  margin-bottom: 24px !important;
+  letter-spacing: 0.5px;
+}
+
+.article-links .panel {
+  border: 1px solid #d2d2d7 !important; /* 添加苹果风格边框 */
+  border-radius: 4px !important; /* 最小圆角 */
+  background: #ffffff !important; /* 白色背景 */
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important; /* 微妙阴影效果 */
+  overflow: hidden;
+  margin-bottom: 12px; /* 减少间距 */
+  height: auto; /* 高度自适应 */
+}
+
+.article-links .panel:hover {
+  background: #ffffff !important;
+  border-color: #007aff !important; /* 悬停时边框变为苹果蓝 */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12) !important;
+  transform: translateY(-1px) !important; /* 减少悬停位移 */
+}
+
+.article-links .media {
+  padding: 6px 10px !important; /* 上下内边距从8px再减少20% (8px × 0.8 = 6.4px ≈ 6px) */
+  margin: 0 !important;
+  min-height: auto !important;
+}
+
+.article-links .media-left {
+  padding-right: 8px !important; /* 减少间距 */
+}
+
+.article-links .img-burn {
+  width: 20px !important; /* 进一步减小图标 */
+  height: 20px !important;
+  border-radius: 3px !important; /* 最小圆角 */
+  overflow: hidden;
+}
+
+.article-links .img-burn img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.article-links .media-heading {
+  font-size: 0.845em !important; /* 保持字体大小不变 */
+  font-weight: 600 !important;
+  margin: 0 0 1px 0 !important; /* 下边距从2px再减少到1px */
+  line-height: 1.1; /* 略微减小行高以节省空间 */
+}
+
+.article-links .media-heading a {
+  text-decoration: none !important;
+  color: #1d1d1f !important;
+  transition: color 0.2s ease !important;
+}
+
+.article-links .media-heading a:hover {
+  color: #007aff !important;
+}
+
+.article-links .text-muted {
+  font-size: 0.65em !important; /* 保持字体大小不变 */
+  color: #86868b !important;
+  line-height: 1.2; /* 略微减小行高以节省空间 */
+  margin: 0 !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 限制为2行 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .article-links .col-sm-3 {
+    margin-bottom: 8px;
+  }
+  
+  .article-links .media {
+    padding: 5px 8px !important; /* 移动端上下内边距从6px再减少20% (6px × 0.8 = 4.8px ≈ 5px) */
+  }
+  
+  .article-links .img-burn {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  
+  .article-links .media-heading {
+    font-size: 0.78em !important; /* 从0.6em扩大30% (0.6 × 1.3 = 0.78) */
+  }
+  
+  .article-links .text-muted {
+    font-size: 0.585em !important; /* 从0.45em扩大30% (0.45 × 1.3 = 0.585) */
+  }
+}
+
+/* 移除原有的阴影和动画效果 */
+.article-links .hover-shadow:hover {
+  box-shadow: none !important;
+}
+
+.article-links .hover-grow:hover {
+  transform: none !important;
+}
