@@ -7816,7 +7816,7 @@ body.okayNav-loaded {
     overflow-y: auto;
     /* Scrollable contents if viewport is shorter than content. */
     border-right: 1px solid #f6f6f6;
-    width: 4.16667%;
+    width: 2.5%; /* 增加约100px，从1.5%调整到2.5% */
   }
 
   .sidebar {
@@ -7830,11 +7830,11 @@ body.okayNav-loaded {
     overflow-y: auto;
     /* Scrollable contents if viewport is shorter than content. */
     border-right: 1px solid #f6f6f6;
-    width: 33.33333%;
+    width: 33.33333%; /* 恢复原始值 */
   }
 
   .main {
-    width: 62.5%;
+    width: 64.16667%; /* 减少约100px，从65.16667%调整到64.16667% */
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -7845,34 +7845,34 @@ body.okayNav-loaded {
     bottom: 0;
     background-color: transparent;
     z-index: 1050;
-    width: 4.16667%;
+    width: 2.5%; /* 与header保持一致 */
   }
 
   body.main-center .main {
-    margin-left: 4.16667%;
+    margin-left: 2.5%; /* 适应header宽度变化 */
   }
 
   body.main-left .sidebar {
-    margin-right: 4.16667%;
+    margin-right: 2.5%; /* 适应header宽度变化 */
   }
 
   body.main-right .sidebar {
-    margin-left: 4.16667%;
+    margin-left: 2.5%; /* 适应header宽度变化 */
   }
 
   body.main-right .main {
-    margin-left: 37.5%;
+    margin-left: 35.83333%; /* 适应header宽度增加的变化 */
   }
 
   body.no-sidebar.main-left .main {
-    width: 95.83333333%;
-    margin-right: 4.16667%;
+    width: 97.5%; /* 适应header宽度变化 */
+    margin-right: 2.5%;
   }
 
   body.no-sidebar.main-right .main,
   body.no-sidebar.main-center .main {
-    width: 95.83333333%;
-    margin-left: 4.16667%;
+    width: 97.5%; /* 适应header宽度变化 */
+    margin-left: 2.5%;
   }
 
   .header .navbar-header {
@@ -8128,11 +8128,11 @@ body.okayNav-loaded {
   }
 
   .header {
-    width: 16.66667%;
+    width: 14%; /* 增加约100px，从12%调整到14% */
   }
 
   .sidebar {
-    width: 25%;
+    width: 25%; /* 保持原始值不变 */
   }
 
   .sidebar .slimContent {
@@ -8141,40 +8141,40 @@ body.okayNav-loaded {
   }
 
   .main {
-    width: 58.33333%;
+    width: 61%; /* 减少约100px，从63%调整到61% */
     padding-right: 25px;
     padding-left: 25px;
   }
 
   .footer {
-    width: 16.66667%;
+    width: 14%; /* 与header保持一致 */
   }
 
   body.main-center .main {
-    margin-left: 16.66667%;
+    margin-left: 14%; /* 适应header宽度变化 */
   }
 
   body.main-left .sidebar {
-    margin-right: 16.66667%;
+    margin-right: 14%; /* 适应header宽度变化 */
   }
 
   body.main-right .sidebar {
-    margin-left: 16.66667%;
+    margin-left: 14%; /* 适应header宽度变化 */
   }
 
   body.main-right .main {
-    margin-left: 41.66667%;
+    margin-left: 39%; /* 适应sidebar宽度保持为25%的变化 */
   }
 
   body.no-sidebar.main-left .main {
-    width: 83.33333333%;
-    margin-right: 16.66667%;
+    width: 86%;
+    margin-right: 14%;
   }
 
   body.no-sidebar.main-right .main,
   body.no-sidebar.main-center .main {
-    width: 83.33333333%;
-    margin-left: 16.66667%;
+    width: 86%;
+    margin-left: 14%;
   }
 
   .bar.bar-footer:before {
@@ -8477,11 +8477,11 @@ body.okayNav-loaded {
   }
 
   .header {
-    width: 16.66667%;
+    width: 14%; /* 增加约100px，从12%调整到14% */
   }
 
   .sidebar {
-    width: 23%;
+    width: 23%; /* 保持原始值不变 */
   }
 
   .sidebar .slimContent {
@@ -8490,40 +8490,40 @@ body.okayNav-loaded {
   }
 
   .main {
-    width: 60.33333%;
+    width: 63%; /* 减少约100px，从65%调整到63% */
     padding-right: 30px;
     padding-left: 30px;
   }
 
   .footer {
-    width: 16.66667%;
+    width: 14%; /* 与header保持一致 */
   }
 
   body.main-center .main {
-    margin-left: 16.66667%;
+    margin-left: 14%; /* 适应header宽度变化 */
   }
 
   body.main-left .sidebar {
-    margin-right: 16.66667%;
+    margin-right: 14%; /* 适应header宽度变化 */
   }
 
   body.main-right .sidebar {
-    margin-left: 16.66667%;
+    margin-left: 14%; /* 适应header宽度变化 */
   }
 
   body.main-right .main {
-    margin-left: 39.66667%;
+    margin-left: 37%; /* 适应sidebar宽度保持为23%的变化 */
   }
 
   body.no-sidebar.main-left .main {
-    width: 83.33333333%;
-    margin-right: 16.66667%;
+    width: 86%;
+    margin-right: 14%;
   }
 
   body.no-sidebar.main-right .main,
   body.no-sidebar.main-center .main {
-    width: 83.33333333%;
-    margin-left: 16.66667%;
+    width: 86%;
+    margin-left: 14%;
   }
 
   .main-nav > li > a {
@@ -8539,46 +8539,46 @@ body.okayNav-loaded {
 
 @media (min-width: 1440px) {
   .header {
-    width: 16.66667%;
+    width: 14%; /* 增加约100px，从12%调整到14% */
   }
 
   .sidebar {
-    width: 21%;
+    width: 21%; /* 保持原始值不变 */
   }
 
   .main {
-    width: 62.33333%;
+    width: 65%; /* 减少约100px，从67%调整到65% */
   }
 
   .footer {
-    width: 16.66667%;
+    width: 14%; /* 与header保持一致 */
   }
 
   body.main-center .main {
-    margin-left: 16.66667%;
+    margin-left: 14%; /* 适应header宽度变化 */
   }
 
   body.main-left .sidebar {
-    margin-right: 16.66667%;
+    margin-right: 14%; /* 适应header宽度变化 */
   }
 
   body.main-right .sidebar {
-    margin-left: 16.66667%;
+    margin-left: 14%; /* 适应header宽度变化 */
   }
 
   body.main-right .main {
-    margin-left: 37.66667%;
+    margin-left: 35%; /* 适应sidebar宽度保持为21%的变化 */
   }
 
   body.no-sidebar.main-left .main {
-    width: 83.33333333%;
-    margin-right: 16.66667%;
+    width: 86%;
+    margin-right: 14%;
   }
 
   body.no-sidebar.main-right .main,
   body.no-sidebar.main-center .main {
-    width: 83.33333333%;
-    margin-left: 16.66667%;
+    width: 86%;
+    margin-left: 14%;
   }
 
   .header #title {
@@ -9219,9 +9219,9 @@ body.okayNav-loaded {
  * 字体和图标缩小30%，简约苹果风格
  */
 
-/* 自定义栅格类 - 每行8个 */
-.col-md-1-5 {
-  width: 12.5%; /* 100% / 8 = 12.5% */
+/* 自定义栅格类 - 每行7个 */
+.col-md-1-7 {
+  width: 14.2857%; /* 100% / 7 = 14.2857% */
   float: left;
   position: relative;
   min-height: 1px;
@@ -9230,13 +9230,13 @@ body.okayNav-loaded {
 }
 
 @media (max-width: 991px) {
-  .col-md-1-5 {
+  .col-md-1-7 {
     width: 25%; /* 平板每行4个 */
   }
 }
 
 @media (max-width: 767px) {
-  .col-md-1-5 {
+  .col-md-1-7 {
     width: 50%; /* 手机每行2个 */
   }
 }
