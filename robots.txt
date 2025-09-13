@@ -22,6 +22,6 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 Disallow: /private/
-
+Disallow: /geo/
 # 站点地图
 Sitemap: http://blog.zenwayfreight.com/sitemap.xml
