@@ -9219,9 +9219,9 @@ body.okayNav-loaded {
  * 字体和图标缩小30%，简约苹果风格
  */
 
-/* 自定义栅格类 - 每行7个 */
-.col-md-1-7 {
-  width: 14.2857%; /* 100% / 7 = 14.2857% */
+/* 自定义栅格类 - 每行6个 */
+.col-md-1-6 {
+  width: 16.66667%; /* 100% / 6 = 16.66667% */
   float: left;
   position: relative;
   min-height: 1px;
@@ -9230,13 +9230,13 @@ body.okayNav-loaded {
 }
 
 @media (max-width: 991px) {
-  .col-md-1-7 {
+  .col-md-1-6 {
     width: 25%; /* 平板每行4个 */
   }
 }
 
 @media (max-width: 767px) {
-  .col-md-1-7 {
+  .col-md-1-6 {
     width: 50%; /* 手机每行2个 */
   }
 }
